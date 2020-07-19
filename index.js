@@ -62,7 +62,7 @@ function rowInnerHtml(
     <td>imdb: ${numeral(imdb).format('0.00')}</td>`;
 }
 
-function renderTable(tableData) {
+function renderTable() {
   tableContainer.innerHTML = `
   <tr>
       <th>${sortColumn === 'id' ? `${String.fromCodePoint(0x2193)} ` : ''}id</th>
